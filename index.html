@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="description" content="A short description of this page." />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="http://map.geoq.cn/ags27/jsapi/js/dojo/dijit/themes/claro/claro.css">
+        </link>
+        <link rel="stylesheet" type="text/css" href="http://map.geoq.cn/ags27/jsapi/js/dojo/dojox/grid/resources/claroGrid.css">
+        </link>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        </link>
+        <script language="javascript">
+             djConfig = {
+                parseOnLoad: true,
+                isDebug: true,
+                baseUrl: "./",
+                modulePaths: {
+                    "steeeeps": "js/steeeeps"
+                }
+            };
+        </script>
+         <script type="text/javascript" src="http://map.geoq.cn/ags27/jsapi/">
+        </script>
+        <script type="text/javascript">
+            dojo.require("dojo.parser");
+            dojo.require("dijit.layout.ContentPane");
+            dojo.require("steeeeps.checkData");
+            var cd ;
+            dojo.addOnLoad(function(){
+                 cd = new steeeeps.CheckData();
+            });
+        </script>
+    </head>
+    <body class="claro">
+        <div id="map" dojoType="dijit.layout.ContentPane">
+        </div>
+    </body>
+</html>

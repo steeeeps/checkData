@@ -1,0 +1,112 @@
+/*
+ main
+ */
+html, body {
+     width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+} #map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+} #headContainer {
+    background-image: url("../assets/images/bj.jpg");
+    background-repeat: repeat-x;
+    padding-top: 0;
+    padding-left: 0;
+} #head {
+    height: 118px;
+    background-image: url('../assets/images/tou01.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    border: 0px solid #023162;
+    width: 986px;
+} .toolbar {
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    z-index: 2;
+}
+
+/*
+ toolbar
+ */ .zoomIn {
+    background-image: url('../assets/images/zoomin2.png');
+    background-repeat: repeat-x;
+    width: 75px;
+    height: 32px;
+    margin: 0px;
+    padding: 0px;
+} .zoomOut {
+    background-image: url('../assets/images/zoomout2.png');
+    background-repeat: repeat-x;
+    width: 65px;
+    height: 32px;
+    padding: 0px;
+} .pan {
+    background-image: url('../assets/images/pan2.png');
+    background-repeat: repeat-x;
+    width: 65px;
+    height: 32px;
+    padding: 0px;
+} .fullExtent {
+    background-image: url('../assets/images/full2.png');
+    background-repeat: repeat-x;
+    width: 65px;
+    height: 32px;
+} .prevExtent {
+    background-image: url('../assets/images/pan1.png');
+    background-repeat: repeat-x;
+    width: 65px;
+    height: 32px;
+} .nextExtent {
+    background-image: url('../assets/images/save2.png');
+    background-repeat: repeat-x;
+    width: 75px;
+    height: 32px;
+} .save {
+    background-image: url('../assets/images/save2.png');
+    background-repeat: repeat-x;
+    width: 78px;
+    height: 32px;
+} .edit {
+    background-image: url('../assets/images/edit.png');
+    background-repeat: repeat-x;
+    width: 65px;
+    height: 32px;
+}
+
+/*
+ dragTitltpane
+ */ .dragTitlepaneCloseIcon {
+    background: url('../assets/images/tabClose.png') no-repeat center center;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    float: right;
+}.dragTitlepaneMinimizeIcon {
+    background: url('../assets/images/spriteArrows.png') no-repeat 0px center;
+    width: 7px;
+    margin: 0px 4px;
+    overflow: hidden;
+    float: right;
+}.dragTitlepane {
+    background-color: #fff;
+    position: absolute;
+    border: 1px solid #dedede;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 5px 10px #adadad;
+}.dragTitlepaneTitle {
+    background: #97CBFF repeat-x bottom left;
+    border: 1px solid #bfbfbf;
+    padding: 4px 4px 2px 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}.info_p{
+    width: 300px;
+    height: 25px;
+}

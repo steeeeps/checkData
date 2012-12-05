@@ -1,0 +1,3 @@
+{ArcGISTiledMapServiceLayerUrl:"http://www.arcgisonline.cn/ArcGIS/rest/services/ChinaCities_Community_BaseMap_CHN/BeiJing_Community_BaseMap_CHN/MapServer",
+
+defaultFields:"state,score,formatted_address,province,postal_code,name"}
